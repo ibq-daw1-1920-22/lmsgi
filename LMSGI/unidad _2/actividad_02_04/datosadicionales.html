@@ -1,0 +1,111 @@
+<!DOCTYPE HTML5>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Completa tus datos</title>
+    </head>
+    <body>
+        <header>
+            <h3>Datos adicionales</h3>
+        </header>
+        <section>
+            <form name="Datos_Adicionales" method="GET" action="http://iesbernaldo-lmsgi.000webhostapp.com/formularios.php">
+                <p>
+                    <label>Provincia</label><br>
+                    <select name="Provincia" id="listado" required>
+                        <option value="">- selecciona -</option>
+                        <option value="2">Álava/Araba</option>
+                        <option value="3">Albacete</option>
+                        <option value="4">Alicante/Alacant</option>
+                        <option value="5">Almería</option>
+                        <option value="6">Asturias</option>
+                        <option value="7">Ávila</option>
+                        <option value="8">Badajoz</option>
+                        <option value="9">Balears (Illes)</option>
+                        <option value="10">Barcelona</option>
+                        <option value="11">Burgos</option>
+                        <option value="12">Cáceres</option>
+                        <option value="13">Cádiz</option>
+                        <option value="14">Cantabria</option>
+                        <option value="15">Castellón/Castelló</option>
+                        <option value="16">Ceuta</option>
+                        <option value="17">Ciudad Real</option>
+                        <option value="18">Córdoba</option>
+                        <option value="19">Coruña (A)</option>
+                        <option value="20">Cuenca</option>
+                        <option value="21">Girona</option>
+                        <option value="22">Granada</option>
+                        <option value="23">Guadalajara</option>
+                        <option value="24">Guipúzcoa/Gipuzkoa</option>
+                        <option value="25">Huelva</option>
+                        <option value="26">Huesca</option>
+                        <option value="27">Jaén</option>
+                        <option value="28">León</option>
+                        <option value="29">Lugo</option>
+                        <option value="30">LLeida</option>
+                        <option value="31">Madrid</option>
+                        <option value="32">Málaga</option>
+                        <option value="33">Melilla</option>
+                        <option value="34">Murcia</option>
+                        <option value="35">Navarra</option>
+                        <option value="36">Ourense</option>
+                        <option value="37">Palencia</option>
+                        <option value="38">Palmas (Las)</option>
+                        <option value="39">Pontevedra</option>
+                        <option value="40">Rioja (La)</option>
+                        <option value="41">Salamanca</option>
+                        <option value="42">Santa Cruz de Tenerife</option>
+                        <option value="43">Segovia</option>
+                        <option value="44">Sevilla</option>
+                        <option value="45">Soria</option>
+                        <option value="46">Tarragona</option>
+                        <option value="47">Teruel</option>
+                        <option value="48">Toledo</option>
+                        <option value="49">Valencia/València</option>
+                        <option value="50">Valladolid</option>
+                        <option value="51">Vizcaya/Bizkaia</option>
+                        <option value="52">Zamora</option>
+                        <option value="53">Zaragoza</option>
+                </select>
+                </p>
+                <p>
+                    <label>Fecha de Nacimiento</label><br>
+                    <input type="text" name="día" maxlength="2" rows=4 required>&nbsp;de
+                    <select name="Mes" id="listado" required>
+                        <option value="">mes</option>
+                        <option value="2">Enero</option>
+                        <option value="3">Febrero</option>
+                        <option value="4">Marzo</option>
+                        <option value="5">Abril</option>
+                        <option value="6">Mayo</option>
+                        <option value="7">Junio</option>
+                        <option value="8">Julio</option>
+                        <option value="9">Agosto</option>
+                        <option value="10">Septiembre</option>
+                        <option value="11">Octubre</option>
+                        <option value="12">Noviembre</option>
+                        <option value="13">Diciembre</option>
+                    </select>&nbsp;de
+                    <input type="text" name="año" maxlength="4" required>
+                </p>
+                <p>
+                    <label>Temás de Interés</label><br>
+                    <select name="Temas" id="listado">
+                        <option value="1">Administración de bases de datos</option>
+                        <option value="2">Análisis y programación</option>
+                        <option value="3">Arquitectura</option>
+                        <option value="4">Calidad</option>
+                        <option value="5">ERP, CRM, Business Intelligence</option>
+                        <option value="6">Gestión de proyectos</option>
+                        <option value="7">Hardware, redes y seguridad</option>
+                        <option value="8">Helpdesk</option>
+                        <option value="9">Sistemas</option>
+                        <option value="10">Telecomunicaciones</option>
+                    </select>
+                </p>
+                <button type="submit" name="Enviar">Enviar Datos</button>
+                <button type="reset" name="Borrar">Borrar los datos introducidos</button>
+            </form>
+        </section>
+    </body>
+</html>
